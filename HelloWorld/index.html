@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+      {{ headContent() }}
+      {{ bootstrapLib() }}
+
+<!-- your webpage info goes here -->
+
+    <title>Shiny HTML Template Basic Example</title>
+	
+	<meta name="author" content="Phil Bowsher" />
+	<meta name="description" content="" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+</head>
+<body>
+
+<!-- webpage content goes here in the body -->
+
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Shiny HTML Template Basic Example</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="#/home.html">Home</a></li>
+				<li><a href="#/about.html">About</a></li>
+				<li><a href="#/contact.html">Contact</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h2>Home</h2>
+			<p>
+				This is my Shiny App in a HTML Template! Now you can integrate Shiny with existing HTML, and starting with Shiny 0.13 (and htmltools 0.3), this can be done with the HTML templates. HTML Templates can be used to bring your company site to Shiny Server to provide a seamless experience for your end-users!
+			</p>
+			
+			{{ slider }}
+      {{ plot }}
+      
+			<p> 
+				I can use my skills here to create websites for my business, my friends and family, my C.V, blog or articles. As well as any games or more experiment stuff (which is what the web is really all about). 
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="/" target="_blank">[your name]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+---
+title: "Intro Shiny HTML Templates"
+output: 
+  html_document: 
+    highlight: textmate
+    toc: yes
+    toc_float: 
+      collapsed: no
+    theme: cosmo
+---
+
+## Introduction
+
+Intro to Shiny HTML Templates.
+
+R is a powerful programming language for statistical computing with many packages and tools.
+
+The goal of this article is to arm you with tools and techniques for creating Shiny apps with custom user interfacex with new or existing HTML (company site etc.).
+
+## Use Case
+
+Question: I have an existing company website that our customers see. I would like my Shiny apps to look more like it. Can that be done?
+
+Or
+
+I would rather use some HTML to go beyond the default Bootstrap theme in Shiny. How do I do that?
+
+
+## Background
+
+I first learned of HTML Templates after a presentation by Joe Cheng at London Earl on Sept 14-16th 2015. You can watch the presentation here. Starts at 27min mark.
+
+https://www.youtube.com/watch?v=MrQVzz2POD4
+
+college scorecard
+https://github.com/majerus/college_explorer
+https://github.com/jcheng5/scorecard-app
+https://beta.rstudioconnect.com/jcheng/scorecard-app/
+https://plus.google.com/+SharonMachlis/posts/AFLq7SQsMyg
+
+html templates officially released in shiny package 0.13 on 1/20
+
+https://blog.rstudio.com/2016/01/20/shiny-0-13-0/
+ 
+Soon after, at the Shiny dev con held at Stanford University on January 30-31, 2016, Garrett Grolemund gave a talk called Shiny UI. You can watch it here:
+
+https://www.rstudio.com/resources/webinars/shiny-developer-conference/
+*Shiny UI video
+
+Code is here:
+
+https://github.com/rstudio/ShinyDeveloperConference/blob/master/UI/Understanding-UI.Rmd
+
+https://github.com/aoles/ShinyDevCon-notes
+
+Nathan Stephens then highlighted them at NYC R on 4/8-9 2016, you can watch here:
+
+http://www.rstats.nyc/2016
+
+https://github.com/nwstephens/nyr2016/blob/master/htmlTemplates/financeTemplate/index.html
+https://github.com/nwstephens/nyr2016/tree/master/htmlTemplates
+
+
+FRISS (Herman Sontrop) at useR2017 on July 5 2017 12:12pm - 12:30pm show how HTMLTemplates can be used to create R based web applications with a fresh, modern and distinct look. You can watch below...
+
+https://github.com/FrissAnalytics
+https://user2017.sched.com/event/AxpF/developing-and-deploying-large-scale-shiny-applications-for-non-life-insurance
+https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Developing-and-deploying-large-scale-Shiny-applications-for-non-life-insurance
+
+## Main page 
+
+http://shiny.rstudio.com/articles/templates.html
+
+## What it is not
+
+https://support.rstudio.com/hc/en-us/articles/217592607-Can-I-embed-shiny-apps-in-other-websites-e-g-iFrames-
+
+http://rmarkdown.rstudio.com/authoring_embedded_shiny.html
+
+https://shiny.rstudio.com/articles/themes.html
+
+http://rstudio.github.io/shinythemes/
+
+## what it is sorta
+
+https://shiny.rstudio.com/articles/html-ui.html
+
+## What it is
+
+https://shiny.rstudio.com/articles/templates.html
+https://shiny.rstudio.com/reference/shiny/0.13.2/htmlTemplate.html
+https://github.com/rstudio/shiny/blob/master/man/htmlTemplate.Rd
+
+## Hellow world
+
+https://www.codecademy.com/courses/my-first-webpage/0/1
+
+## Alternatives
+
+https://nycdatascience.com/blog/student-works/the-most-dangerous-intersections-in-nyc/
+https://fangzhoucheng.com
+https://github.com/funjo/NYPD_accidents_shiny/blob/master/ui.R
+
+flexdashboard
+http://rmarkdown.rstudio.com/flexdashboard/examples.html
+https://twitter.com/holomarked/status/748495589399232512?lang=en
+
+## Examples
+
+https://github.com/rstudio/sol-eng-public/tree/master/newTopics/01-Shiny/01-htmlTemplates
+
+https://github.com/MarkEdmondson1234/gentelellaShiny_old
+http://code.markedmondson.me/gentelellaShiny/
+
+
+## Finance
+
+https://github.com/nwstephens/nyr2016/tree/master/htmlTemplates
+
+## Pharma
+
+https://beta.rstudioconnect.com/content/2771/
+
+## Interesting
+
+https://support.rstudio.com/hc/en-us/community/posts/115007034228-Questions-regarding-HTML-and-R-Shiny-integration
+https://cran.r-project.org/web/packages/htmltools/htmltools.pdf
+https://stackoverflow.com/questions/41134843/r-shiny-html-integration
+https://groups.google.com/forum/#!topic/shiny-discuss/tNwlFF3jdBs
+
+## Issues
+
+https://stackoverflow.com/questions/44471320/shiny-timevis-and-html-templates
